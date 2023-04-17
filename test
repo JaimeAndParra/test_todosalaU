@@ -1,0 +1,12 @@
+Paso a paso para subir un repositorio
+
+git status                          Lista el estado de los archivos
+git add                             Agregar los archivos a subir del repositorio local al remoto
+
+
+Paso a paso para crear una rama
+
+git branch                          Saber en que rama se encuentra
+git branch {name}                   Crear una rama en el repositorio local
+git branch -a                       Listar los branch
+git switch {name}                   Para cambiar de rama
