@@ -1,7 +1,9 @@
 Paso a paso para subir un repositorio
 
 git status                          Lista el estado de los archivos
-git add                             Agregar los archivos a subir del repositorio local al remoto
+git add {options}                   Agregar los archivos a subir del repositorio local al remoto
+git commit - m {message}            Crea el commit para publicarlo en el repositorio
+git push origin develop             Sube la rama al repositorio
 
 
 Paso a paso para crear una rama
