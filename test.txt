@@ -1,0 +1,32 @@
+Paso a paso para subir un repositorio
+
+git status                          Lista el estado de los archivos
+git add {options}                   Agregar los archivos a subir del repositorio local al remoto
+git commit - m {message}            Crea el commit para publicarlo en el repositorio
+git push origin develop             Sube la rama al repositorio
+
+
+Paso a paso para crear una rama
+
+git branch                          Saber en que rama se encuentra
+git branch {name}                   Crear una rama en el repositorio local
+git branch -a                       Listar los branch
+git switch {name}                   Para cambiar de rama
+
+
+Copiar cambios de develop a una rama nueva
+
+git checkout -B {features/fix/hotfix/release}/HelpFiles     Copia a la rama features/HelpFiles
+
+
+git commit --amend --no-edit                                Repisa un commit ya realizado
+git push origin {name} -f                                   Para forzar el push
+
+.gitignore
+
+Archivo que permite evitar subir archivos no deseados al repositorio:
+variables de entorno, carpetas caché, modulos de ejecución local, logs.
+
+README
+
+Archivo en markdown basado en latex para documentar el respositorio

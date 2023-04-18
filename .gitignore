@@ -1,0 +1,12 @@
+# Para variables de entorno
+*.env_ignore
+
+# Para carpetas
+test_ignore/
+
+# Para extensiones de archivos
+*.py
+
+# Para excluir archivos que empiecen por test_ign
+test_ign*.csv
+
